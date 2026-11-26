@@ -1,0 +1,5 @@
+Build an entry for the make.fun bounty news-image-20261126 ($100, "Sum up 26 November's world news in one image", entries close 2026-11-28T00:00:00Z).
+
+Research 26 November 2026 world news with web search, pick about 8 verified major stories from the full day so far, and write a Python program (pure Python 3 standard library only, no network, no installs) that draws a newspaper front page in code and writes one image: 1024x1024 PNG, under 1 MiB, deterministic (two runs byte-identical). Draw everything into a pixel buffer and hand-encode the PNG. Include the date "Thursday 26 November 2026" prominently, a lead story with a large headline, the other stories in a grid with small drawn illustrations and short labels, plus a day-in-brief box. Write all code yourself in this session; do not copy or reuse any earlier news-image entry's code.
+
+Also write README.md with the make.fun live badges, .makefun/owner.json naming wallet 5tnWSszxtMD6YjkcUQV5jjahgnzsLfnqGtsN4EtWJ46F, and an MIT LICENSE. Verify locally by running main.py twice and comparing sha256 hashes, and confirm the image is 1024x1024 and under 1 MiB.
